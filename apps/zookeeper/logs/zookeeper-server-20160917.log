@@ -1,0 +1,26 @@
+2016-09-17 00:57:43,161 [myid:] - INFO  [main:QuorumPeerConfig@103] - Reading configuration from: H:\cygwin64\home\fxl0206\apps\zookeeper\conf\zoo.cfg
+2016-09-17 00:57:43,169 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2016-09-17 00:57:43,169 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2016-09-17 00:57:43,169 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2016-09-17 00:57:43,171 [myid:] - WARN  [main:QuorumPeerMain@113] - Either no config or no quorum defined in config, running  in standalone mode
+2016-09-17 00:57:43,230 [myid:] - INFO  [main:QuorumPeerConfig@103] - Reading configuration from: H:\cygwin64\home\fxl0206\apps\zookeeper\conf\zoo.cfg
+2016-09-17 00:57:43,230 [myid:] - INFO  [main:ZooKeeperServerMain@95] - Starting server
+2016-09-17 00:57:43,248 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2016-09-17 00:57:43,248 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=fxl-pc
+2016-09-17 00:57:43,248 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=1.7.0_45
+2016-09-17 00:57:43,249 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2016-09-17 00:57:43,249 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=C:\Program Files\Java\jdk1.7.0_45\jre
+2016-09-17 00:57:43,249 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=H:/cygwin64/home/fxl0206/apps/zookeeper/zookeeper-3.4.6/conf;H:/cygwin64/home/fxl0206/apps/zookeeper/zookeeper-3.4.6/zookeeper-3.4.6.jar;H:/cygwin64/home/fxl0206/apps/zookeeper/configext;H:/cygwin64/home/fxl0206/apps/zookeeper/config;;H:/cygwin64/home/fxl0206/apps/zookeeper/zookeeper-3.4.6/lib/jline-0.9.94.jar;H:/cygwin64/home/fxl0206/apps/zookeeper/zookeeper-3.4.6/lib/log4j-1.2.16.jar;H:/cygwin64/home/fxl0206/apps/zookeeper/zookeeper-3.4.6/lib/netty-3.7.0.Final.jar;H:/cygwin64/home/fxl0206/apps/zookeeper/zookeeper-3.4.6/lib/slf4j-api-1.6.1.jar;H:/cygwin64/home/fxl0206/apps/zookeeper/zookeeper-3.4.6/lib/slf4j-log4j12-1.6.1.jar
+2016-09-17 00:57:43,249 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=C:\Program Files\Java\jdk1.7.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\cygwin64\usr\local\bin;H:\cygwin64\bin;H:\cygwin64\bin;C:\Program Files\Java\jdk1.8.0_101\bin;H:\gradle-2.14.1\bin;H:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Java\jdk1.7.0_45\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\WIDCOMM\Bluetooth Software;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\VanDyke Software\Clients;C:\HashiCorp\Vagrant\bin;C:\Program Files\TortoiseSVN\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;D:\servers\apache-ant-1.9.2\bin;D:\servers\apache-maven-3.0.4\bin;.
+2016-09-17 00:57:43,249 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=H:\cygwin64\tmp\
+2016-09-17 00:57:43,250 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2016-09-17 00:57:43,252 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Windows 8
+2016-09-17 00:57:43,252 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=amd64
+2016-09-17 00:57:43,252 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=6.2
+2016-09-17 00:57:43,252 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=fxl0206
+2016-09-17 00:57:43,253 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=C:\Users\fxl0206
+2016-09-17 00:57:43,253 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=H:\cygwin64\home\fxl0206\apps\zookeeper\sbin
+2016-09-17 00:57:43,262 [myid:] - INFO  [main:ZooKeeperServer@755] - tickTime set to 2000
+2016-09-17 00:57:43,262 [myid:] - INFO  [main:ZooKeeperServer@764] - minSessionTimeout set to -1
+2016-09-17 00:57:43,262 [myid:] - INFO  [main:ZooKeeperServer@773] - maxSessionTimeout set to -1
+2016-09-17 00:57:43,288 [myid:] - INFO  [main:NIOServerCnxnFactory@94] - binding to port 0.0.0.0/0.0.0.0:2181

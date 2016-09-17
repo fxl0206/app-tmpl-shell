@@ -1,0 +1,216 @@
+九月 17, 2016 12:56:40 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.70
+九月 17, 2016 12:56:40 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Jun 15 2016 16:27:45 UTC
+九月 17, 2016 12:56:40 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.70.0
+九月 17, 2016 12:56:40 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 8
+九月 17, 2016 12:56:40 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.2
+九月 17, 2016 12:56:40 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+九月 17, 2016 12:56:40 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.7.0_45\jre
+九月 17, 2016 12:56:40 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_45-b18
+九月 17, 2016 12:56:40 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+九月 17, 2016 12:56:40 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         H:\cygwin64\home\fxl0206\apps\test
+九月 17, 2016 12:56:40 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         H:\cygwin64\home\fxl0206\software\apache-tomcat-7.0.70
+九月 17, 2016 12:56:40 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=H:\cygwin64\home\fxl0206\apps\test/conf/logging.properties
+九月 17, 2016 12:56:40 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+九月 17, 2016 12:56:40 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+九月 17, 2016 12:56:40 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=H:\cygwin64\home\fxl0206\software\apache-tomcat-7.0.70\endorsed
+九月 17, 2016 12:56:40 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=H:\cygwin64\home\fxl0206\apps\test
+九月 17, 2016 12:56:40 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=H:\cygwin64\home\fxl0206\software\apache-tomcat-7.0.70
+九月 17, 2016 12:56:40 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=H:\cygwin64\var\tmp
+九月 17, 2016 12:56:40 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C;H:\Program Files\Java\jdk1.7.0_45\bin;H:\cygwin64\usr\local\bin;H:\cygwin64\bin;H:\cygwin64\bin;C:\Program Files\Java\jdk1.8.0_101\bin;H:\gradle-2.14.1\bin;H:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Java\jdk1.7.0_45\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\WIDCOMM\Bluetooth Software;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\VanDyke Software\Clients;C:\HashiCorp\Vagrant\bin;C:\Program Files\TortoiseSVN\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;D:\servers\apache-ant-1.9.2\bin;D:\servers\apache-maven-3.0.4\bin;.
+九月 17, 2016 12:56:40 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-6061"]
+九月 17, 2016 12:56:40 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8010"]
+九月 17, 2016 12:56:40 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 741 ms
+九月 17, 2016 12:56:40 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+九月 17, 2016 12:56:40 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.70
+九月 17, 2016 12:56:40 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-6061"]
+九月 17, 2016 12:56:40 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8010"]
+九月 17, 2016 12:56:40 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 564 ms
+九月 17, 2016 12:56:50 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.70
+九月 17, 2016 12:56:50 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Jun 15 2016 16:27:45 UTC
+九月 17, 2016 12:56:50 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.70.0
+九月 17, 2016 12:56:50 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 8
+九月 17, 2016 12:56:50 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.2
+九月 17, 2016 12:56:50 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+九月 17, 2016 12:56:50 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.7.0_45\jre
+九月 17, 2016 12:56:50 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_45-b18
+九月 17, 2016 12:56:50 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+九月 17, 2016 12:56:50 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         H:\cygwin64\home\fxl0206\apps\test
+九月 17, 2016 12:56:50 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         H:\cygwin64\home\fxl0206\software\apache-tomcat-7.0.70
+九月 17, 2016 12:56:50 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=H:\cygwin64\home\fxl0206\apps\test/conf/logging.properties
+九月 17, 2016 12:56:50 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+九月 17, 2016 12:56:50 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+九月 17, 2016 12:56:50 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=H:\cygwin64\home\fxl0206\software\apache-tomcat-7.0.70\endorsed
+九月 17, 2016 12:56:50 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=H:\cygwin64\home\fxl0206\apps\test
+九月 17, 2016 12:56:50 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=H:\cygwin64\home\fxl0206\software\apache-tomcat-7.0.70
+九月 17, 2016 12:56:50 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=H:\cygwin64\var\tmp
+九月 17, 2016 12:56:50 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C;H:\Program Files\Java\jdk1.7.0_45\bin;H:\cygwin64\usr\local\bin;H:\cygwin64\bin;H:\cygwin64\bin;C:\Program Files\Java\jdk1.8.0_101\bin;H:\gradle-2.14.1\bin;H:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Java\jdk1.7.0_45\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\WIDCOMM\Bluetooth Software;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\VanDyke Software\Clients;C:\HashiCorp\Vagrant\bin;C:\Program Files\TortoiseSVN\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;D:\servers\apache-ant-1.9.2\bin;D:\servers\apache-maven-3.0.4\bin;.
+九月 17, 2016 12:56:50 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-6061"]
+九月 17, 2016 12:56:50 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8010"]
+九月 17, 2016 12:56:50 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 744 ms
+九月 17, 2016 12:56:50 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+九月 17, 2016 12:56:50 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.70
+九月 17, 2016 12:56:51 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-6061"]
+九月 17, 2016 12:56:51 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8010"]
+九月 17, 2016 12:56:51 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 605 ms
+九月 17, 2016 12:57:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.70
+九月 17, 2016 12:57:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Jun 15 2016 16:27:45 UTC
+九月 17, 2016 12:57:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.70.0
+九月 17, 2016 12:57:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 8
+九月 17, 2016 12:57:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.2
+九月 17, 2016 12:57:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+九月 17, 2016 12:57:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.7.0_45\jre
+九月 17, 2016 12:57:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_45-b18
+九月 17, 2016 12:57:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+九月 17, 2016 12:57:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         H:\cygwin64\home\fxl0206\apps\test
+九月 17, 2016 12:57:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         H:\cygwin64\home\fxl0206\software\apache-tomcat-7.0.70
+九月 17, 2016 12:57:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=H:\cygwin64\home\fxl0206\apps\test/conf/logging.properties
+九月 17, 2016 12:57:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+九月 17, 2016 12:57:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+九月 17, 2016 12:57:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=H:\cygwin64\home\fxl0206\software\apache-tomcat-7.0.70\endorsed
+九月 17, 2016 12:57:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=H:\cygwin64\home\fxl0206\apps\test
+九月 17, 2016 12:57:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=H:\cygwin64\home\fxl0206\software\apache-tomcat-7.0.70
+九月 17, 2016 12:57:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=H:\cygwin64\var\tmp
+九月 17, 2016 12:57:25 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C;H:\Program Files\Java\jdk1.7.0_45\bin;H:\cygwin64\usr\local\bin;H:\cygwin64\bin;H:\cygwin64\bin;C:\Program Files\Java\jdk1.8.0_101\bin;H:\gradle-2.14.1\bin;H:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Java\jdk1.7.0_45\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\WIDCOMM\Bluetooth Software;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\VanDyke Software\Clients;C:\HashiCorp\Vagrant\bin;C:\Program Files\TortoiseSVN\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;D:\servers\apache-ant-1.9.2\bin;D:\servers\apache-maven-3.0.4\bin;.
+九月 17, 2016 12:57:25 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-6061"]
+九月 17, 2016 12:57:25 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8010"]
+九月 17, 2016 12:57:25 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 754 ms
+九月 17, 2016 12:57:25 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+九月 17, 2016 12:57:25 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.70
+九月 17, 2016 12:57:26 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-6061"]
+九月 17, 2016 12:57:26 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8010"]
+九月 17, 2016 12:57:26 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 562 ms
+九月 17, 2016 8:56:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.70
+九月 17, 2016 8:56:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Jun 15 2016 16:27:45 UTC
+九月 17, 2016 8:56:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.70.0
+九月 17, 2016 8:56:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 8
+九月 17, 2016 8:56:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.2
+九月 17, 2016 8:56:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+九月 17, 2016 8:56:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\Program Files\Java\jdk1.7.0_45\jre
+九月 17, 2016 8:56:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.7.0_45-b18
+九月 17, 2016 8:56:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+九月 17, 2016 8:56:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         H:\cygwin64\home\fxl0206\apps\test
+九月 17, 2016 8:56:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         H:\cygwin64\home\fxl0206\software\apache-tomcat-7.0.70
+九月 17, 2016 8:56:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=H:\cygwin64\home\fxl0206\apps\test/conf/logging.properties
+九月 17, 2016 8:56:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+九月 17, 2016 8:56:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+九月 17, 2016 8:56:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=H:\cygwin64\home\fxl0206\software\apache-tomcat-7.0.70\endorsed
+九月 17, 2016 8:56:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=H:\cygwin64\home\fxl0206\apps\test
+九月 17, 2016 8:56:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=H:\cygwin64\home\fxl0206\software\apache-tomcat-7.0.70
+九月 17, 2016 8:56:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=H:\cygwin64\var\tmp
+九月 17, 2016 8:56:53 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C;H:\Program Files\Java\jdk1.7.0_45\bin;H:\cygwin64\usr\local\bin;H:\cygwin64\bin;C:\Program Files\Java\jdk1.8.0_101\bin;H:\gradle-2.14.1\bin;H:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Java\jdk1.7.0_45\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\WIDCOMM\Bluetooth Software;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\VanDyke Software\Clients;C:\HashiCorp\Vagrant\bin;C:\Program Files\TortoiseSVN\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;D:\servers\apache-ant-1.9.2\bin;D:\servers\apache-maven-3.0.4\bin;.
+九月 17, 2016 8:56:54 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-6061"]
+九月 17, 2016 8:56:54 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8010"]
+九月 17, 2016 8:56:54 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 730 ms
+九月 17, 2016 8:56:54 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+九月 17, 2016 8:56:54 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.70
+九月 17, 2016 8:56:54 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-6061"]
+九月 17, 2016 8:56:54 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8010"]
+九月 17, 2016 8:56:54 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 527 ms
