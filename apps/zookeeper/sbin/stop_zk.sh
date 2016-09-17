@@ -16,7 +16,7 @@ PROCESS_NAME="org.apache.zookeeper.server.quorum.QuorumPeerMain"
 CUR_USER=`whoami`
 
 if [[ `uname` =~ CYGWIN ]];then
-	netstat -ano | grep 2181 | awk '{print $5}' | while read pid
+	netstat -ano | grep 2181 | grep LISTENING | awk '{print $5}' | while read pid
 	do
 			taskkill /F /PID ${pid}
 			echo "success stop zookeeper-server pid:${pid}"
