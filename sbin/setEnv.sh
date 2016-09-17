@@ -44,30 +44,26 @@ else
 	S_FIX=":"
 fi
 
-if [ ! -n "${COMMON_LIB_HOME}" ];then
-	COMMON_LIB_HOME="${APP_HOME}/lib"
-	export COMMON_LIB_HOME
-fi
-
 if [ ! -n "${COMMON_LIBEXT_HOME}" ];then
 	COMMON_LIBEXT_HOME="${APP_HOME}/libext"
 	export COMMON_LIBEXT_HOME
 fi
-if [ ! -n "${COMMON_CONFIG_HOME}" ];then
-	COMMON_CONFIG_HOME="${APP_HOME}/config"
+
+if [ ! -n "${COMMON_LIB_HOME}" ];then
+	COMMON_LIB_HOME="${APP_HOME}/lib"
+	export COMMON_LIB_HOME
 fi
 
 if [ ! -n "${COMMON_CONFIGEXT_HOME}" ];then
 	COMMON_CONFIGEXT_HOME="${APP_HOME}/configext"
 fi
 
-CP=
-if [ -d ${COMMON_LIB_HOME} ];then
-	for i in `find ${COMMON_LIB_HOME} -name "*.jar"`
-	do
-		CP=${CP}${S_FIX}$i
-	done
+if [ ! -n "${COMMON_CONFIG_HOME}" ];then
+	COMMON_CONFIG_HOME="${APP_HOME}/config"
 fi
+
+
+CP=
 
 if [ -d ${COMMON_LIBEXT_HOME} ];then
 	for i in `find ${COMMON_LIBEXT_HOME} -name "*.jar"`
@@ -75,6 +71,15 @@ if [ -d ${COMMON_LIBEXT_HOME} ];then
 		CP=${CP}${S_FIX}$i
 	done
 fi
+
+if [ -d ${COMMON_LIB_HOME} ];then
+	for i in `find ${COMMON_LIB_HOME} -name "*.jar"`
+	do
+		CP=${CP}${S_FIX}$i
+	done
+fi
+
+
 CLASSPATH="${COMMON_CONFIGEXT_HOME}${S_FIX}${COMMON_CONFIG_HOME}${S_FIX}${CP}"
 export CLASSPATH
 

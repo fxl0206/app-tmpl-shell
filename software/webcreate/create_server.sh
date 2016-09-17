@@ -24,12 +24,13 @@ PORT=`expr 8009 + $1`
 sed -i "s/{connectorPort}/$PORT/g" $APP_PATH/conf/server.xml
 PORT=`expr 6060 + $1`
 sed -i "s/{webPort}/$PORT/g" $APP_PATH/conf/server.xml
+sed -i "s/{webPort}/$PORT/g" $APP_PATH/sbin/stop_web_console.sh
+
 PORT=`expr 8005 + $1`
 sed -i "s/{shutPort}/$PORT/g" $APP_PATH/conf/server.xml
 
 sed -i "s/{contextPath}/$2/g" $APP_PATH/conf/server.xml
 sed -i "s/{contextPath}/$2/g" $APP_PATH/sbin/start_web_console.sh
-sed -i "s/{webPort}/$PORT/g" $APP_PATH/sbin/stop_web_console.sh
 
 
 if [[ `uname` =~ CYGWIN ]];then
